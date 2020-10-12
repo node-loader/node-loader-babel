@@ -2,7 +2,7 @@
 
 A [nodejs loader](https://nodejs.org/dist/latest-v13.x/docs/api/esm.html#esm_experimental_loaders) for [babel](https://babeljs.io/). This allows you to compile all files with babel before they are executed in Node.
 
-\*\*This project is similar to [`@babel/node`](https://babeljs.io/docs/en/next/babel-node.html), except that it works with ES modules.
+**This project is similar to [`@babel/node`](https://babeljs.io/docs/en/next/babel-node.html), except that it works with ES modules.**
 
 ## Installation
 
