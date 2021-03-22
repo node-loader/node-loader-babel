@@ -27,4 +27,4 @@ node --experimental-loader @node-loader/babel file.js
 
 ## Composition
 
-If you wish to combine import maps with other NodeJS loaders, you may do so by using [node-loader-core](https://github.com/node-loader/node-loader-core).
+If you wish to combine the babel loader with other NodeJS loaders, you may do so by using [node-loader-core](https://github.com/node-loader/node-loader-core).
