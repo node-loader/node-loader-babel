@@ -9,4 +9,13 @@ describe(`basic babel usage`, () => {
       children: undefined,
     });
   });
+
+  it(`supports ES module babel config files`, async () => {
+    const mjsConfig = await import("./fixtures/mjs-config/main.js");
+    assert.deepEqual(mjsConfig.default, {
+      type: "div",
+      props: null,
+      children: undefined,
+    });
+  });
 });
