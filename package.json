@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/node-loaders/node-loader-babel.git"
   },
-  "author": "",
+  "files": [
+    "lib"
+  ],
+  "author": "Joel Denning",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/node-loaders/node-loader-babel/issues"
