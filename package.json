@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "test": "node --experimental-loader ./lib/node-loader-babel.js ./test/run-tests.js"
+    "test": "node --experimental-loader ./lib/node-loader-babel.js ./test/run-tests.js",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,17 +18,12 @@
   "bugs": {
     "url": "https://github.com/node-loaders/node-loader-babel/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "homepage": "https://github.com/node-loaders/node-loader-babel#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
-    "husky": "^4.3.0",
-    "mocha": "^8.1.3",
+    "husky": "^7.0.0",
+    "mocha": "^9.0.2",
     "prettier": "^2.1.2",
     "pretty-quick": "^3.0.2"
   },
