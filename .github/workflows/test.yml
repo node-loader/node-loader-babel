@@ -18,5 +18,4 @@ jobs:
           version: 6.9.1
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
-      - run: pnpm run check-format
       - run: pnpm run lint
