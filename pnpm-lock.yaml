@@ -5,8 +5,7 @@ specifiers:
   '@babel/eslint-parser': ^7.14.7
   '@babel/plugin-transform-react-jsx': ^7.10.4
   eslint: ^7.30.0
-  eslint-config-important-stuff: ^1.1.0
-  eslint-config-node-important-stuff: ^1.1.0
+  eslint-config-node-important-stuff: ^2.0.0
   husky: ^7.0.0
   mocha: ^9.0.2
   prettier: ^2.1.2
@@ -17,8 +16,7 @@ devDependencies:
   '@babel/eslint-parser': 7.14.7_@babel+core@7.14.6+eslint@7.30.0
   '@babel/plugin-transform-react-jsx': 7.14.5_@babel+core@7.14.6
   eslint: 7.30.0
-  eslint-config-important-stuff: 1.1.0
-  eslint-config-node-important-stuff: 1.1.0_eslint@7.30.0
+  eslint-config-node-important-stuff: 2.0.0_eslint@7.30.0
   husky: 7.0.0
   mocha: 9.0.2
   prettier: 2.3.2
@@ -665,8 +663,8 @@ packages:
     resolution: {integrity: sha512-CsV6QFsjNDTZTDEgE1XxhTKph4YJUh5XFMdsWv3p+9DuMyvfy40fsnZiwqXZHBVEUNMHf+zfPGk6s6b4fS9Erw==}
     dev: true
 
-  /eslint-config-node-important-stuff/1.1.0_eslint@7.30.0:
-    resolution: {integrity: sha512-bG6bnD0P81rWYIU2yY3RUxnjz7BoDushsTsDUfg0tZlujXHqApaR2tN1AskHk/FEOYOB7hObY9NxmPdiT8jctA==}
+  /eslint-config-node-important-stuff/2.0.0_eslint@7.30.0:
+    resolution: {integrity: sha512-UU6Cn5R29dduIcngYzAAuK2BdKRXioKn0VBzdFUTW2XLUkYJBiqq6QRFzzX2Me3y5vczjoYe1h/8tJ3cbPaB3A==}
     dependencies:
       eslint-config-important-stuff: 1.1.0
       eslint-plugin-node: 11.1.0_eslint@7.30.0
