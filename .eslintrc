@@ -1,4 +1,7 @@
 {
-  "extends": "important-stuff",
-  "parser": "@babel/eslint-parser"
+  "extends": "node-important-stuff",
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "node/no-unpublished-import": "off"
+  }
 }

@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "lint": "prettier --check . && eslint lib",
+    "lint": "eslint lib",
+    "check-format": "prettier --check .",
     "test": "node --experimental-loader ./lib/node-loader-babel.js ./test/run-tests.js",
     "prepare": "husky install"
   },
@@ -28,8 +29,7 @@
     "@babel/eslint-parser": "^7.14.7",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "eslint": "^7.30.0",
-    "eslint-config-important-stuff": "^1.1.0",
-    "eslint-config-node-important-stuff": "^1.1.0",
+    "eslint-config-node-important-stuff": "^2.0.0",
     "husky": "^7.0.0",
     "mocha": "^9.0.2",
     "prettier": "^2.1.2",
