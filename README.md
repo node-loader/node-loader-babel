@@ -14,6 +14,7 @@ yarn add --save @node-loader/babel
 ```
 
 If using Node<16.12, use `@node-loader/babel@1`. Otherwise, use `@node-loader/babel@latest`
+
 ## Usage
 
 Run node with the `--experimental-loader` flag:
