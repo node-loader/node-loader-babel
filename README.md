@@ -33,4 +33,4 @@ If you wish to combine the babel loader with other NodeJS loaders, you may do so
 
 ## CommonJS Modules
 
-Right now, node-loader-babel skips compilation of CommonJS modules since NodeJS' default implementation of `load()` returns no source code for commonjs modules. See #9 for more details.
+Right now, node-loader-babel skips compilation of CommonJS modules since NodeJS' default implementation of `load()` returns no source code for commonjs modules. See https://github.com/node-loader/node-loader-babel/pull/10 for more details.
