@@ -1,6 +1,6 @@
 {
   "name": "@node-loader/babel",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A nodejs loader for babel",
   "main": "lib/node-loader-babel.js",
   "type": "module",
