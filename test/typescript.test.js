@@ -12,4 +12,3 @@ describe(`@babel/preset-typescript usage`, () => {
     assert.deepEqual(componentModule.default.props, {});
   });
 });
-
